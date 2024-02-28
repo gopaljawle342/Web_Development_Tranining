@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap');
+
+.parent{
+    height: auto;
+    width: auto;
+    margin: 100px auto;
+    border: 5px solid red;
+    border-style: double;
+    
+}
+.parent{
+  background: url(img/pxfuel1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    height: auto;
+    width: 200px;
+  }
+.Marathi{
+    display: inline-flex;
+    border: 2px solid darkred;
+    height: auto;
+    width: 300px;
+  }
+.Marathi p{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 15px; 
+}
+.Marathi{
+  background: url();  
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}

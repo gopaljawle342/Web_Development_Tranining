@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.first{
+    background-image: url(/ClassPractice/img/farm.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Logo{
+    height: 50px;
+    width: 100%;
+}
+.logo1{
+    float: left;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: gray;
+}
+
+.head{
+    margin-left: 65vw;
+    
+}
+
+.head a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.head :nth-child(3){
+    font-size: 20px;
+    border: 2px solid grey;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+.middle{
+    margin: 100px;
+    margin-left: 600px;
+
+}
+
+.middle h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 20px;
+}
+.middle h5{
+    font-size: 20px;
+    color: white;
+}
+
+.second{
+    height: 700px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.second :nth-child(1){
+    margin-top: 60px;
+    margin-left: 300px;
+    color: gray;
+    font-size: 30px;
+}
+
+.article{
+    min-height: 400px;
+    width: 90%;
+    border: 2px solid black;
+    margin: 55px;
+    padding: 30px;
+}
+.article .articleDiv {
+    min-height:300px ;
+    width:30% ;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+}
+.articleDiv .articleImage{
+    height:100px ;
+    width: 90%;
+
+}
+.articleImage img{
+    
+}

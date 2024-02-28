@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    ;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    /* border: 2px solid rgb(28, 44, 2); */
+    margin: 0 auto;
+
+}
+
+.container .header{
+    
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid lightblue; */
+    background-color: rgb(104, 174, 218);
+}
+.header .header-logo{
+    float: left;
+    width: 48%;
+    height: 70px;
+    /* border: 2px solid white; */
+}
+
+.header-logo h3{
+    padding: 15px 15px 15px 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.header .header-menu{
+    float: right;
+    width: 48%;
+    height: 70px;
+    /* border: 2px solid white; */
+    padding-top: 20px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.header-menu a:hover{
+    background-color:lightskyblue;
+    color: white ;
+}
+
+.container .sladder{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid lightgoldenrodyellow; */
+    background-color: lightgoldenrodyellow;
+
+}
+
+.sladder img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.container .content{
+    margin-top: 10px;
+    width: 100%;
+    min-height:400px;
+    height: auto;
+    /* border: 2px solid lightcyan; */
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+.content .content-news{
+    padding-top: 15px;
+    float: left;
+    height: 385px;
+    width: 32%;
+    /* border: 1px solid wheat; */
+}
+
+.content-news img{
+    width: 30px;
+    height: 20px;
+}
+
+.content .content-info{
+    float: right;
+    height: auto;
+    width: 62%;
+    /* border: 1px solid wheat; */
+    padding: 5px;
+}
+
+.content-info .info{
+    padding: 5px;
+    float: left;
+    width: 48%;
+    height: 70px;
+    
+}
+
+.info p{
+    text-align: justify;
+    font-size: 17px;
+    
+}
+
+.content-info .images{
+    float: right;
+    width:48%;
+    height: 370px;
+    
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.container .footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid lightblue; */
+    background-color: rgb(104, 174, 218);
+}
+
+.footer h4{
+    padding: 15px;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box1{
+    
+    height: auto;
+    width: 300px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-style: solid;
+    
+}
+.box1 h1{
+    color: rgb(149, 247, 3);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+.box1 .box2 p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.box1 .box2 p::first-letter{
+    font-size: 38px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.box1 .box2 .img-div img{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.box1 .box2 .img-div img{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
